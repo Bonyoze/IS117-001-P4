@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+<!-- header and navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">
+                        <i class="bi bi-house-fill"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../education.html">
+                        <i class="bi bi-mortarboard-fill"></i> Education
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../experience.html">
+                        <i class="bi bi-kanban-fill"></i> Experience
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbar-dropdown"
+                       role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-pencil-fill"></i> Projects
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbar-dropdown">
+                        <li>
+                            <a class="dropdown-item" href="../projects/project1.html">
+                                Project 1
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="../projects/project2.html">
+                                Project 2
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="../projects/project3.html">
+                                Project 3
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contact.html">
+                        <i class="bi bi-envelope-paper-fill"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<main class="flex-grow-1">
+    <div class="container mt-5 mb-5">
+        <h1 class="mb-4">
+            <i class="bi bi-pencil-fill"></i> Community Backend Project
+        </h1>
+        <div class="row justify-content-center text-center text-md-start">
+            <div class="col-md-5 p-4 bg-light border rounded shadow-sm m-2">
+                <h4>Project Description</h4>
+                <p>
+                    A microservices architecture for managing game server operations and
+                    communication between a web interface, built using various technologies.
+                    Powers the developer panels of the webserver.
+                </p>
+            </div>
+            <div class="col-md-5 p-4 bg-light border rounded shadow-sm m-2">
+                <h4>Skills Learned</h4>
+                <p>
+                    Backend development, distributed systems, inter-service communication,
+                    networking, and teamwork.
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer bg-dark text-light py-3 mt-auto sticky-bottom">
+    <div class="container d-flex justify-content-between text-center small">
+        <a href="#" class="text-decoration-none text-light">Terms of Service</a>
+        <span>&copy; Ethan V, 2025</span>
+        <a href="#" class="text-decoration-none text-light">Privacy Policy</a>
+    </div>
+</footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
